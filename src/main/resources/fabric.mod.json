@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "coords",
+  "version": "${version}",
+  "name": "Coords",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/coords/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.frogdog.coords.client.CoordsClient"
+    ],
+    "main": [
+      "me.frogdog.coords.Coords"
+    ]
+  },
+  "mixins": [
+    "coords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
